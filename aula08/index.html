@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 08 HTML</title>
+  </head>
+  <body>
+    <!-- Exemplo de mapeamento de imagem -->
+    <h2>Mapeando imagem com HTML</h2>
+    <img
+      src="image.png"
+      alt="Imagem de teste"
+      usemap="#mesa"
+      width="400"
+      height="379"
+    />
+    <map name="mesa">
+      <area shape="rect" coords="33, 44, 270, 350" href="laptop.html" />
+      <area shape="react" coords="290, 172, 333, 250" href="celular.html" />
+      <area shape="circle" coords="337, 300, 44" href="cafe.html" />
+    </map>
+  </body>
+</html>

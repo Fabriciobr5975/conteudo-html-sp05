@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 08 HTML</title>
+</head>
+<body>
+    <!-- Utilizando a tag picture para tamanhos diferentes de tela -->
+    <h2>Utilizando a tag picture</h2> 
+    <picture>
+        <source media="(min-width: 650px)" srcset="notebook.png">
+        <source media="(min-width: 465px)" srcset="celular.png">
+        <img src="cafe.png" width="100%">
+    </picture>
+</body>
+</html>
